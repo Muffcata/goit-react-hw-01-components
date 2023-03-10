@@ -32,12 +32,11 @@ ul {
   overflow: hidden;
 }
 .description {
-  padding: 70px 50px 0;
+  padding: 70px 62px 0;
   margin: 0 auto;
   text-align: center;
-  border: rgb(145, 132, 165) 1px solid;
+
   box-shadow: 5px 5px 20px rgb(135, 127, 146);
-  display: block;
 }
 .avatar {
   display: flex;
@@ -73,7 +72,7 @@ ul {
   border-top: 1;
   border-style: solid;
   border-color: rgb(227, 227, 227);
-  width: 31%;
+
   margin: 0;
   background-color: rgb(247, 246, 242);
 }
@@ -82,7 +81,7 @@ ul {
   flex-direction: column;
   border: rgb(145, 132, 165) 1px solid;
   box-shadow: 5px 5px 20px rgb(135, 127, 146);
-  width: 100px;
+  width: 92px;
   height: 70px;
   text-align: center;
   padding-top: 16px;
@@ -90,4 +89,17 @@ ul {
 }
 .label {
   font-weight: 600;
+}
+@media screen and (min-width: 1200px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    border: rgb(145, 132, 165) 1px solid;
+    box-shadow: 5px 5px 20px rgb(135, 127, 146);
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    padding-top: 16px;
+    background-color: rgb(217, 215, 227);
+  }
 }
