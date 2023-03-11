@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.statistics {
+  background-color: rgb(217, 215, 227);
+  display: flex;
+  border-radius: 5px;
+  width: 500px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  justify-content: center;
+  font-size: 24px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgb(135, 127, 146);
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: rgb(145, 132, 165) 1px solid;
+  border-right: 1px solid;
+  box-shadow: 5px 5px 20px;
+  width: 100px;
+  height: 100px;
+}
+.label {
+  font-size: 18px;
+  color: rgb(88, 84, 84);
+  padding: 20px;
+}
+.percentage {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: rgb(88, 84, 84);
+}
+.title {
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(135, 127, 146);
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 20px;
+}

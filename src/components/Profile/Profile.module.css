@@ -25,25 +25,22 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   padding: 20px;
-  background-color: rgb(221, 221, 221);
-  overflow: hidden;
+  /* background-color: rgb(217, 215, 227); */
 }
 .description {
   padding: 70px 62px 0;
   margin: 0 auto;
   text-align: center;
-
   box-shadow: 5px 5px 20px rgb(135, 127, 146);
 }
 .avatar {
   display: flex;
-  width: 90px;
+  width: 120px;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  background-color: azure;
 }
 .name {
   text-align: center;
@@ -81,7 +78,7 @@ ul {
   flex-direction: column;
   border: rgb(145, 132, 165) 1px solid;
   box-shadow: 5px 5px 20px rgb(135, 127, 146);
-  width: 92px;
+  width: 100px;
   height: 70px;
   text-align: center;
   padding-top: 16px;
@@ -89,17 +86,4 @@ ul {
 }
 .label {
   font-weight: 600;
-}
-@media screen and (min-width: 1200px) {
-  .item {
-    display: flex;
-    flex-direction: column;
-    border: rgb(145, 132, 165) 1px solid;
-    box-shadow: 5px 5px 20px rgb(135, 127, 146);
-    width: 100px;
-    height: 70px;
-    text-align: center;
-    padding-top: 16px;
-    background-color: rgb(217, 215, 227);
-  }
 }
