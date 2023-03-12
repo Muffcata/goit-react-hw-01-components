@@ -25,7 +25,8 @@ ul {
   background-color: rgb(217, 215, 227);
   display: flex;
   border-radius: 5px;
-  width: 500px;
+  width: 100%;
+  max-width: 310px;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
@@ -38,9 +39,8 @@ ul {
   box-shadow: 5px 5px 20px rgb(135, 127, 146);
 }
 .list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: block;
+  width: 100%;
 }
 .item {
   display: flex;
@@ -50,8 +50,6 @@ ul {
   border: rgb(145, 132, 165) 1px solid;
   border-right: 1px solid;
   box-shadow: 5px 5px 20px;
-  width: 100px;
-  height: 100px;
 }
 .label {
   font-size: 18px;
@@ -71,4 +69,20 @@ ul {
   text-align: center;
   text-transform: uppercase;
   box-shadow: 5px 5px 20px;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .item {
+    width: 100px;
+    height: 100px;
+  }
+  .statistics {
+    max-width: 500px;
+  }
 }

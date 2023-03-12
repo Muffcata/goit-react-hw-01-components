@@ -1,0 +1,33 @@
+.tableBox {
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 20px rgb(135, 127, 146);
+}
+.column {
+  text-transform: capitalize;
+  width: 100px;
+  text-align: center;
+  box-shadow: 5px 5px 20px rgb(135, 127, 146);
+}
+.head {
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: rgb(3, 206, 252);
+  color: white;
+}
+.box {
+  padding-top: 71px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .column {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 195px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .column {
+    width: 260px;
+  }
+}
