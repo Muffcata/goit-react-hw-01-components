@@ -70,8 +70,7 @@ ul {
   text-transform: uppercase;
   box-shadow: 5px 5px 20px;
 }
-@media screen and (min-width: 768px) {
-}
+
 @media screen and (min-width: 1200px) {
   .list {
     display: flex;
