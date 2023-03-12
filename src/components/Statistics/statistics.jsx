@@ -1,6 +1,6 @@
 import style from './statistics.module.css';
 import { getRandomColor } from 'get-color-bg';
-import PropTypes, { string } from 'prop-types';
+import PropTypes from 'prop-types';
 
 export const Statistics = ({ title, stats }) => {
   return (
